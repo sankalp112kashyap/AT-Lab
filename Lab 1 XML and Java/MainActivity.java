@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             if(email.trim().matches(email)){
-                Toast.makeText(this , "Valid emailId", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this , "Valid email address", Toast.LENGTH_SHORT).show();
             }else{
                 Toast.makeText(this, "Invalid email address", Toast.LENGTH_SHORT).show();
             }
